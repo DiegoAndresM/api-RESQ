@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Mixed = mongoose.Schema.Types.Mixed;
 const cors = require('cors');
 
-
+//
 // Conexión a MongoDB Atlas
 mongoose.connect('mongodb+srv://admin:admin@cluster0.ndljknw.mongodb.net/ResQ', {
   useNewUrlParser: true,
